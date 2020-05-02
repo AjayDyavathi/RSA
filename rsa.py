@@ -81,8 +81,8 @@ if __name__ == '__main__':
         sys.exit()
 
     if mode == 'enc':
-        p = int(input('Enter a prime number: '))
-        q = int(input('Enter another prime number: '))
+        p = int(input('Enter a prime number (greater than 7): '))
+        q = int(input('Enter another prime number (greater than 7): '))
         if flag:
             print('You can try checking primes by running "$ python3 rsa.py check_primes"')
         print('Generating RSA keys...')
